@@ -92,7 +92,7 @@ function App() {
     <div className={`text-${mode} bg-${mode== "light" ? "black" : "light"}`}>
      <Navbar title ="TextUtiles"  Abouttitle ="About Us" mode = {mode} togglemode ={togglemode} />
      <Alert alert ={alert} />
-     <TextUtile Heading ="Enter the text herer" handleClick ={handleClick} handleClicklow= {handleClicklow} handleClickClear={handleClickClear}  handleClickCReverse = {handleClickCReverse} handleChange ={handleChange} handleClickCopy= {handleClickCopy} handleClickRemove={handleClickRemove}  handleerror = {handleerror} />
+     <TextUtile Heading ="Enter the text here" handleClick ={handleClick} handleClicklow= {handleClicklow} handleClickClear={handleClickClear}  handleClickCReverse = {handleClickCReverse} handleChange ={handleChange} handleClickCopy= {handleClickCopy} handleClickRemove={handleClickRemove}  handleerror = {handleerror} />
      <div className='container' > <About  mode = {mode} /></div>
      </div>
     </>
